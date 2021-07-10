@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.wrapper {
+    border: 1px solid black;
+    padding: 1%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*Login Portal CSS*/
+.cartgif {
+    position: absolute;
+    margin-left: 40px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 50%;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 4%;
+    font-weight: bold;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #2f3542;
+    font-size: 30px;
+}
+
+.menu ul li a:hover {
+    font-size: 45px;
+    color: #EAB543;
+    opacity: .7;
+}
+
+
+/*Footer CSS
+.footercontainer{
+    position:fixed;
+    /*margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    
+}*/

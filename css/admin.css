@@ -1,0 +1,112 @@
+.bodystart {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px 2px;
+    width: auto;
+    color: #588c7e;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    text-align: left;
+}
+
+td {
+    padding: 5px 15px;
+}
+
+th {
+    background-color: #588c7e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.addcategory {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10 px;
+    position: absolute;
+    right: 20px;
+    background-color: #c0392b;
+    cursor: pointer;
+    float: right;
+
+}
+
+.buton {
+    float: right;
+}
+
+button:not(#logot, #su):hover {
+    background-color: #079992;
+}
+
+option:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.submitnewcat {
+    margin-top: 3%;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10 px;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+form:not(#rform) {
+    margin-top: 1%;
+}
+
+input:not(.deny),
+select:not(.deny) {
+    max-width: 50%;
+    margin-left: 5px;
+    border-style: inset;
+    border-left: 6px solid green;
+    background-color: #ced6e0;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.catidcont {
+    background-color: #c7ecee;
+    cursor: default;
+}
+
+label {
+    padding: 10px 10px;
+    font-size: larger;
+    background-color: #130f40;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+
+.print {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10 px;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.box {
+    display: grid;
+    text-align: center;
+
+    color: #2d3436;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 30px 20px;
+}
